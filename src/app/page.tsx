@@ -1,17 +1,14 @@
-'use client'
+"use client";
 
-import { Dialog } from "@headlessui/react"
-import { Menu, X } from 'lucide-react'
-import { useState } from 'react'
-import Chat from '../components/Chat'
-import { AccordionTrigger } from "@radix-ui/react-accordion"
+import { Dialog } from "@headlessui/react";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
+import { AccordionTrigger } from "@radix-ui/react-accordion";
 
-const navigation = [
-  { name: '', href: '#' },
-] 
+const navigation = [{ name: "", href: "scrap" }];
 
 export default function Home() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 
   return (
     <div className="min-h-screen bg-white bg-[url('/path/to/your/image.jpg')] bg-repeat">
@@ -105,7 +102,7 @@ export default function Home() {
         </Dialog>
       </header>
 
-      <div className="relative isolate pt-14">
+      <div className="relative isolate">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -121,13 +118,12 @@ export default function Home() {
         <div className="py-24 sm:py-32 lg:pb-40">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-md text-center">
-              
-              <h6 className="mb-8"> 
+              <h6 className="mb-8">
                 <span className="m-2 text-sm bg-indigo-400 text-white px-3 py-2 rounded-full">
                   Beta
                 </span>
               </h6>
-              
+
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 <span className=" text-white bg-indigo-600 shadow-[0_2px_10px_theme(colors.indigo.600)]">
                   {" "}
@@ -137,9 +133,9 @@ export default function Home() {
                 AI Sales Closer
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                The power of Alex Hormozi&apos;s mind now in your hands. Make
-                offers (on autopilot) so good, people feel <em>stupid</em>{" "}
-                saying no.
+                The power of Alex Hormozi&apos;s mind - now in your hands. Put
+                an AI Chatbot on your website that makes offers so good, people
+                feel <em>stupid</em> saying no.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 {/* Button to simulate accordion click */}
@@ -151,7 +147,7 @@ export default function Home() {
                   }}
                   className="btn"
                 >
-                  Enter your website
+                  Give it a try
                 </button>
               </div>
             </div>
