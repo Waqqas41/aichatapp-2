@@ -128,7 +128,7 @@ export default function Home() {
                 </span>{" "}
                 <br></br>
                 
-                Your AI Closer 
+                AI Sales Closer 
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 The power of Alex Hormozi&apos;s mind now in your hands. Make offers (on autopilot)
