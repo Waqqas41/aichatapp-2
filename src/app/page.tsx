@@ -122,7 +122,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-md text-center">
               
-              <h6 className="mb-8"> {/* {{ edit_1 }} */}
+              <h6 className="mb-8"> 
                 <span className="m-2 text-sm bg-indigo-400 text-white px-3 py-2 rounded-full">
                   Beta
                 </span>
