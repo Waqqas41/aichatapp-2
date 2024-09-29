@@ -1,9 +1,11 @@
 import Chat from '@/components/Chat'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Space_Grotesk } from 'next/font/google' // {{ edit_1 }}
 import Providers from '@/components/Providers'
 
 const inter = Inter({ subsets: ['latin'] })
+const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] }) // {{ edit_2 }}
 
 export const metadata = {
   title: 'Create Next App',
@@ -18,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <Providers>
-        <body className={inter.className}>
+        <body className={`${inter.className} ${spaceGrotesk.className}`}> {/* {{ edit_3 }} */}
           <Chat />
           {children}
         </body>
