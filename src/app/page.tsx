@@ -14,7 +14,7 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false)
 
   return (
-    <div className="bg-white">
+    <div className="min-h-screen bg-white bg-[url('/path/to/your/image.jpg')] bg-repeat">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
@@ -23,7 +23,11 @@ export default function Home() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto" src="/book.png" alt="" />
+              <img
+                className="h-12 w-12 rounded-full"
+                src="alex_head.jpeg"
+                alt="alex hormozi"
+              />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -118,12 +122,15 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-md text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                <span className="text-white bg-indigo-600 shadow-[0_2px_10px_theme(colors.indigo.600)]"> $100M</span> AI
-                sales closer    
+                <span className="text-white bg-indigo-600 shadow-[0_2px_10px_theme(colors.indigo.600)]">
+                  {" "}
+                  $100M
+                </span>{" "}
+                AI sales closer
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                The AI closer built on Alex Hormozi's mind that makes offers so
-                good, people feel stupid saying no.
+                The AI closer trained on Alex Hormozi&apos;s mind to make offers
+                so good, people feel <em>stupid</em> saying no.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 {/* Button to simulate accordion click */}
@@ -139,9 +146,7 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="mt-16 flow-root sm:mt-24">
-              
-            </div>
+            <div className="mt-16 flow-root sm:mt-24"></div>
           </div>
         </div>
         {/* <div
