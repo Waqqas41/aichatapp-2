@@ -122,15 +122,16 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-md text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                <span className="text-white bg-indigo-600 shadow-[0_2px_10px_theme(colors.indigo.600)]">
+                <span className=" text-white bg-indigo-600 shadow-[0_2px_10px_theme(colors.indigo.600)]">
                   {" "}
-                  $100M
+                  $100M GPT
                 </span>{" "}
-                AI sales closer
+                <br></br>
+                Your AI Closer 
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                The AI closer trained on Alex Hormozi&apos;s mind to make offers
-                so good, people feel <em>stupid</em> saying no.
+                The power of Alex Hormozi&apos;s mind now in your hands. Make offers (on autopilot)
+                so good, people feel <em>stupid</em> saying no. 
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 {/* Button to simulate accordion click */}
@@ -142,7 +143,7 @@ export default function Home() {
                   }}
                   className="btn"
                 >
-                  Chat with your website
+                  Enter your website 
                 </button>
               </div>
             </div>
