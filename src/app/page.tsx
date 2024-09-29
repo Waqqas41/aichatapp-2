@@ -123,10 +123,11 @@ export default function Home() {
             <div className="mx-auto max-w-md text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 <span className=" text-white bg-indigo-600 shadow-[0_2px_10px_theme(colors.indigo.600)]">
-                  {" "}
-                  $100M GPT
+                {" "}
+                $100M GPT
                 </span>{" "}
                 <br></br>
+                
                 Your AI Closer 
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
