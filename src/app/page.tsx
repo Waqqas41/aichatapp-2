@@ -137,7 +137,7 @@ export default function Home() {
                 an AI Chatbot on your website that makes offers so good, people
                 feel <em>stupid</em> saying no.
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="mt-10 flex-col flex items-center justify-center gap-x-6">
                 {/* Button to simulate accordion click */}
                 <button
                   onClick={() => {
@@ -149,6 +149,10 @@ export default function Home() {
                 >
                   Give it a try
                 </button>
+
+                <a href="https://forms.gle/ZFwrRtnEhAwsX55e7" className="btn">
+                  Contact Us
+                </a>
               </div>
             </div>
             <div className="mt-16 flow-root sm:mt-24"></div>

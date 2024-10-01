@@ -77,7 +77,7 @@ body {
   display: flex;
   justify-content: center;
   cursor: pointer;
-  
+  margin: 1rem;
   background:linear-gradient(rgb(79, 70, 229),rgb(79, 70, 229)), linear-gradient(rgb(79, 70, 229) 50%, rgb(79, 70, 229) 80%, rgba(18, 18, 19, 0)),  linear-gradient(90deg, var(--orange), var(--yellow), var(--green), var(--blue), var(--purple), var(--pink), var(--red));
   background-origin: border-box;
   background-clip: padding-box, border-box, border-box;
